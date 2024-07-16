@@ -1,0 +1,304 @@
+*{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+#nav ul li img:hover{
+  opacity: 0.3;
+}
+#nav ul li button:hover{
+  background-color: #e1e1e1;
+}
+#now:hover{
+  text-decoration: underline rgb(101, 101, 213);
+}
+#join:hover{
+
+}
+#google:hover{
+  box-shadow: 1px 2px 5px rgb(137, 137, 137);
+
+}
+#email:hover{
+  box-shadow: 1px 2px 5px rgb(137, 137, 137);
+}
+.market button:hover{
+  background-color: #eeeeee;
+}
+.it button:hover{
+  background-color: #eeeeee;
+}
+.tele button:hover{
+  background-color: #eeeeee;
+}
+.engineer button:hover{
+  background-color: #eeeeee;
+}
+.admin button:hover{
+  background-color: #eeeeee;
+}
+.operation button:hover{
+  background-color: #eeeeee;
+}
+.itm button:hover{
+  background-color: #eeeeee;
+}
+#find button:hover{
+  background-color: #eeeeee;
+}
+
+
+nav{
+    margin-top: 15px
+}
+nav ul{
+    display: flex;
+}
+nav p{
+    font-size: 12px;
+    color: rgb(126, 126, 126);
+}
+nav .vertical-line{
+    width: 1px;
+    margin-left: 20px;
+    height: 50px;
+    background-color: rgb(206, 206, 206);
+}
+nav button{
+    color: rgb(48, 48, 255);
+    border: 1px solid rgb(48, 48, 255);
+    background-color: white;
+    
+}
+#join:hover{
+  background-color: #c9c9c9;
+  border-radius: 30px;
+  height: 32px;
+  width: 85px;
+  
+   
+}
+#bn button:hover{
+  background-color: #eeeeee;
+}
+
+
+.row button{
+    padding: 10px;
+    border-radius: 40px;
+    margin: 8px;
+    font-size: 16px;
+    background-color: white;
+    margin-left:170px;
+    border: 1px solid black;
+    
+} 
+.para{
+    font-size: 12px;
+    color: rgb(140, 140, 140);
+    text-align: center;
+    margin-top: 10px;
+}
+.para span{
+    color: rgb(91, 91, 255);
+    font-weight: bold;
+}
+.join{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+#content p{
+    font-weight: 200;
+    margin-left: 100px;
+}
+#content2{
+    margin-left: -295px;
+    margin-top: 100px;
+    
+}
+.it button{
+    font-weight: 500;
+}
+.market button{
+    
+    font-weight: 500;
+}
+.tele button{
+    font-weight: 500;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #f9f9f9;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    width: 120px;
+    text-align: center;
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .toggle-input {
+    display: none;
+  }
+  
+  .toggle-input:checked + .dropdown .dropdown-content {
+    display: block;
+  }
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #f9f9f9;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-input:checked + .dropdown .dropdown-content {
+  display: block;
+}
+button{
+  font-weight: 500;
+}
+
+
+.dropdown-menu span{
+  font-weight: lighter;
+}
+.dropdown-menu a:hover{
+  text-decoration: underline rgb(0, 0, 143);
+}
+#general p{
+  font-weight: bolder;
+}
+#general li a{
+  color: rgb(122, 122, 122);
+  font-weight: 500;
+  font-size: 14px;
+}
+#general li a:hover{
+  text-decoration: underline rgb(56, 56, 255);
+  color: rgb(56, 56, 255);
+}
+#browse p{
+  font-weight:bolder;
+}
+#browse li a{
+  color: rgb(122, 122, 122);
+  font-weight: 500;
+  font-size: 14px;
+}
+#browse li a:hover{
+  text-decoration: underline rgb(56, 56, 255);
+  color: rgb(56, 56, 255);
+}
+#business p{
+  font-weight: bolder;
+}
+#business li a{
+  color: rgb(122, 122, 122);
+  font-weight: 500;
+  font-size: 14px;
+}
+#business li a:hover{
+  text-decoration: underline rgb(56, 56, 255);
+  color: rgb(56, 56, 255);
+}
+#direct p{
+  font-weight:bolder;
+}
+#direct li a{
+  color: rgb(122, 122, 122);
+  font-weight: 500;
+  font-size: 14px;
+}
+#direct li a:hover{
+  text-decoration: underline rgb(56, 56, 255);
+  color: rgb(56, 56, 255);
+}
+#general{
+  margin-top: 30px;
+  margin-left: 250px;
+}
+#browse{
+  margin-top: 30px;
+  margin-left: -50px;
+}
+#business{
+  margin-top: 30px;
+  margin-left: -50px;
+}
+#direct{
+  margin-top: 30px;
+  margin-left: -50px;
+}
+.footer ul li a{
+  color: rgb(80, 80, 80);
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+#lang{
+  
+}
+.dropdown-menu {
+  position: absolute;
+  top: calc(-100% - 10px); /* Adjust this value as needed */
+  left: 0;
+  right: 0;
+}

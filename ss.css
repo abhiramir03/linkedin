@@ -1,0 +1,51 @@
+.container {
+    margin-left: 0px;
+    margin-top: -5px;
+    position: relative;
+}
+
+.main-btn {
+    margin-left: 156px;
+}
+
+.hidden-buttons {
+    display: none;
+    margin-top: 20px;
+}
+
+.button-group {
+    display: flex;
+    margin-top: -5px;
+}
+
+.button-group button {
+    margin-left: -3px;
+}
+
+.button-group button:first-child {
+    margin-left: 0;
+}
+
+.sub-btn {
+    margin-bottom: 5px;
+}
+
+.nested-buttons {
+    position: relative;
+}
+
+.program { top: 58px; }
+.community { top: 115px; }
+.entre { top: 170px; }
+.military { top: 225px; }
+.quality { top: 280px; }
+
+.admin-btn {
+    margin-top: 283px;
+    margin-left: 45px;
+}
+
+.show-more {
+    margin-left: 156px;
+    margin-top: 10px;
+}
